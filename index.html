@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="todo-wrapper">
+      <header>
+        <h1 class="todo-heading">To-Do List</h1>
+      </header>
+
+      <form class="todo-form">
+        <button
+          class="todo-sort-btn"
+          aria-label="sort the list"
+          type="button"
+          role="button"
+        >
+          <img src="images/Group 74.png" />
+        </button>
+
+        <div class="todos | mb-sm">
+          <input type="text" class="new-todo-input | mb-xs" />
+          <ul class="todo-list" role="list">
+            <!-- <li class="todo-list-item">
+              <p class="todo-list-item-name">name</p>
+              <button class = "todo-remove-btn"><img src="images/Group 77.png" alt=""  class = "todo-remove"/></button>
+            </li> -->
+          </ul>
+        </div>
+
+        <button
+          type="submit"
+          class="todo-add-btn"
+          aria-label="add new item"
+          role="button"
+        >
+          <span class="todo-plus">+</span>
+          <span class="todo-add-text">Add</span>
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
